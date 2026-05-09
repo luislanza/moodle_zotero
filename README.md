@@ -10,10 +10,11 @@ Este script permite la integración de bibliografía dinámica en Moodle a parti
 
 ## Instalación
 1. Configurar un Grupo en Zotero como "Public, Closed Membership".
-2. Vincular los PDFs como "Linked URL" para garantizar el acceso universal.
-3. Crear una api key en Zotero: en zotero.org ir a home / settings / security / Applications: Create new private key
-4. Copiar el código de `moodle_zotero_integration.js` en un bloque HTML de Moodle.
-5. Ajustar las variables `ZOTERO_GROUP_ID` y `ZOTERO_API_KEY`.
+2. Anotar el ID del grupo: https://www.zotero.org/groups/[id de grupo]/.
+3. Vincular los PDFs como "Linked URL" para garantizar el acceso universal.
+4. Crear una api key en Zotero: en zotero.org ir a home / settings / security / Applications: Create new private key
+5. Copiar el código de `moodle_zotero_integration.js` en un bloque HTML de Moodle.
+6. Ajustar las variables `ZOTERO_GROUP_ID` (paso 2) y `ZOTERO_API_KEY` (paso 4).
 
 ## Contexto Académico
 Desarrollado como parte del Ecosistema Digital de Investigación (EDI) en conjunto entre lic. Luis Lanza (https://orcid.org/0009-0004-6535-8772) y dr. Nicolás Lázaro (https://orcid.org/0000-0002-6066-332X).
