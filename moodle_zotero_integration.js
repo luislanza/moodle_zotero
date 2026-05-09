@@ -1,9 +1,13 @@
 <p>
   <script>
-    const TITULO_BIBLIOGRAFIA = "Bibliografía EDI"; // Nombre visual del título de espacio. Se recomienda pegar en un área de texto o en página de Moodle
-    const ZOTERO_GROUP_ID = ""; // ID de grupo. Ver readme. 
-    const ZOTERO_API_KEY = ""; // Api Key. Ver readme.
-    const ESTILO_POR_DEFECTO = "apa"; // Opciones: apa, vancouver, chicago-author-date, etc.
+    const TITULO_BIBLIOGRAFIA =
+      "Bibliografía EDI"; //El nombre con que quieres que se muestre el espacio
+    const ZOTERO_GROUP_ID =
+      ""; //Id del grupo. Aparece en https://www.zotero.org/groups/... <-- este número
+    const ZOTERO_API_KEY =
+      ""; //Creada en Profile --> Security --> Applications --> Create new private key
+    const ESTILO_POR_DEFECTO =
+      "apa"; // Opciones: apa, vancouver, chicago-author-date, etc.
   </script>
 </p>
 <div id="zotero-apa-container"
